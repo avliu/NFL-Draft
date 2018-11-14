@@ -12,7 +12,7 @@ CREATE TABLE player(last_name VARCHAR(100), first_name VARCHAR(100), yrs_played 
 
 SELECT first_name, last_name FROM draft;
 
-#1985-2015
+#1985-2000
 DROP TABLE result;
 CREATE TABLE result AS
 	SELECT draft.round AS round, player.yrs_played AS yrs_played, draft.yr AS draft_yr FROM draft
